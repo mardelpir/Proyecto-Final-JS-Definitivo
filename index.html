@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <!-- LINK BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Proyecto Final</title>
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="four-columns">
+                    <img src="img/logo.png" alt="Logo">
+                </div>
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                                <img src="img/cart.png" id="img-carrito">
+                                <div id="carrito">
+                                        
+                                        <table id="lista-carrito" class="u-full-width">
+                                            <thead>
+                                                <tr>
+                                                    <th>Imagen</th>
+                                                    <th>Nombre</th>
+                                                    <th>Precio</th>
+                                                    <th>Cantidad</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody></tbody>
+                                        </table>
+    
+                                        <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                                </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns icono icono1">
+                        <p>Los mejores productos para tu vuelo! <br>
+                        Explora las ofertas!</p>
+                    </div>
+                    <div class="four columns icono icono2">
+                        <p>Productos avalados por pilotos profesionales! <br>
+                        Dale estilo a tu vuelo!</p>
+                    </div>
+                    <div class="four columns icono icono3">
+                        <p>Garantía extendida! <br>
+                        Comprá seguro!</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="lista-productos" class="container">
+        <h1 id="encabezado" class="encabezado">Preparate para tu vuelo!</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/bolso.png" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>BOLSO AVIADOR FLYBOYS</h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$ 9403  <span class="u-pull-right ">$ 8.463</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/capota.png" class="imagen-producto u-full-width">
+                        <div class="info-card">
+                            <h4>CAPOTA IFR ASA JIFFYHOOD</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$4.670  <span class="u-pull-right ">$4.200</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/intercomm.png" class="imagen-producto u-full-width">
+                        <div class="info-card">
+                            <h4>INTERCOM AVCOMM AC2EX PLACE</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$67.820  <span class="u-pull-right ">$61.040</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/computador.png" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>COMPUTADOR DE VUELO CX3</h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$44.050  <span class="u-pull-right ">$39.640</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/headset.png" class="imagen-producto u-full-width">
+                        <div class="info-card">
+                            <h4>AURICULAR FARO G3 CARBON ANR</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$301.072  <span class="u-pull-right ">$240.850</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/hojas-de-libro-de-vuelo.png" class="imagen-producto u-full-width">
+                        <div class="info-card">
+                            <h4>HOJAS DE LIBRO DE VUELO</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$300  <span class="u-pull-right ">$230</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/linterna.png" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>LINTERNA LED SENSER V2 DUAL COLOR</h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$5.000  <span class="u-pull-right ">$4.348</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/libro-de-vuelo.png" class="imagen-producto u-full-width">
+                        <div class="info-card">
+                            <h4>LIBRO DE VUELO NEGRO</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$2.500  <span class="u-pull-right ">$2.010</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/holdingpattern.png" class="imagen-producto u-full-width">
+                        <div class="info-card">
+                            <h4>HOLDING PATERN COMPUTER</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$4.500  <span class="u-pull-right ">$4.100</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/piernera.png" class="imagen-producto u-full-width">
+                        <div class="info-card">
+                            <h4>PIERNERA IPAD MINI - ASA</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$14.090  <span class="u-pull-right ">$11.272</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="img/pitotcover.png" class="imagen-producto u-full-width">
+                            <div class="info-card">
+                                <h4>PITOT COVER TUBE UNIVERSAL</h4>
+                                <img src="img/estrellas.png">
+                                <p class="precio">$5.300  <span class="u-pull-right ">$4.770</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar Al Carrito</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="img/portadocumentos.png" class="imagen-producto u-full-width">
+                            <div class="info-card">
+                                <h4>PORTADOCUMENTOS DE VUELO</h4>
+                                <img src="img/estrellas.png">
+                                <p class="precio">$7.450  <span class="u-pull-right ">$6.705</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar Al Carrito</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+    </div>  
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns">
+                            <nav id="principal" class="menu">
+                                <a class="enlace" href="#">Empezá tu carrera de Piloto!</a>
+                                <a class="enlace" href="#">Soporte</a>
+                                <a class="enlace" href="#">Temas</a>
+                            </nav>
+                    </div>
+                    <div class="four columns">
+                            <nav id="secundaria" class="menu">
+                                <a class="enlace" href="#">¿Quienes Somos?</a>
+                                <a class="enlace" href="#">Empleo</a>
+                                <a class="enlace" href="#">Blog</a>
+                            </nav>
+                    </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
