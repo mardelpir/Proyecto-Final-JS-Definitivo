@@ -128,3 +128,4 @@ function sincronizarStorage(){
 function limpiarHTML() {
     contenedorCarrito.innerHTML = "";
 }
+

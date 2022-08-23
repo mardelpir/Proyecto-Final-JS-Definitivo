@@ -147,6 +147,15 @@ ul {
     font-size: 22px;
 }
 
+.formulario{
+    width: 50%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+label{
+    font-size: 2rem;
+}
 
 .footer {
     font-size: 1.3rem;
